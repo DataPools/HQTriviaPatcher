@@ -2,7 +2,7 @@
 ## Requirements
 - ADB
 - apktool
-- Java
+- Java 8 or higher
 - git
 ## Instructions
 1. Open Terminal/cmd.exe
