@@ -6,7 +6,7 @@
 - git
 ## Instructions
 1. Open Terminal/cmd.exe
-2. Pull the repo by using `git pull https://github.com/DataPools/HQTriviaPatcher`
+2. Clone the repo by using `git clone https://github.com/DataPools/HQTriviaPatcher`
 3. Go into the director using `cd HQTriviaPatcher`
 4. Execute ```keytool -genkey -v -keystore my-release-key.jks -alias my-alias -keyalg RSA -keysize 2048 -validity 10000```, make sure that you remember the password you set.
 5. Connect an Android device with HQTrivia installed to the computer.
