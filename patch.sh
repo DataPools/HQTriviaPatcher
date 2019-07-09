@@ -12,6 +12,7 @@ echo "Patching APK"
 java -jar HQSmaliPatcher.jar
 echo "Building new APK"
 apktool b base -o HQTrivia-Temp.apk
+chmod +x zipalign
 ./zipalign -p 4 HQTrivia-Temp.apk HQTrivia-Patched.apk
 echo "Type in the keystone password"
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.jks HQTrivia-Patched.apk my-alias
